@@ -1,6 +1,6 @@
 Mover3D[] movers = new Mover3D[10000];
 
-Attractor a;
+Attractor3D a;
 
 float angle = 0;
 
@@ -15,7 +15,7 @@ void setup()
   {
     movers[i] = new Mover3D(random(0.1,0.4),random(-width/2,width/2),random(-height/32,height/32),random(-400,400)); 
   }
-  a = new Attractor();
+  a = new Attractor3D();
 }
 
 void draw() 

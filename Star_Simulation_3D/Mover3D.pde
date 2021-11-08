@@ -1,3 +1,9 @@
+/*
+* Autor: Lukas Hannawald
+* last edited: 08/11/2021
+*/
+
+// Klasse Mover3D
 class Mover3D 
 {
   PVector location;
@@ -5,6 +11,7 @@ class Mover3D
   PVector acceleration;
   float mass;
 
+  // Konstoktor Klasse Mover3D
   Mover3D(float m, float x, float y, float z) 
   {
     mass = m;
